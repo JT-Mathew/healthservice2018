@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SEPRroject</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="makeapp">Make an \nAppointment</string>
+    <string name="manApp">Manage an \nAppointment</string>
+
+</resources>
