@@ -22,7 +22,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".BookingActivity" />
-        <activity android:name=".ManageActivity"></activity>
+        <activity android:name=".ManageActivity" />
+        <activity android:name=".SignUpActivity"></activity>
     </application>
 
 </manifest>
