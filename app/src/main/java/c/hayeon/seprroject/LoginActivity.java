@@ -33,7 +33,6 @@ public class LoginActivity extends AppCompatActivity {
                 "1", "46", "Raleigh Avenue",
                 "Caringbah", 2229);
 
-//blahfghfghj
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
