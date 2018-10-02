@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import c.hayeon.seprroject.model.Appointment;
 import c.hayeon.seprroject.model.User;
 
 public class LoginActivity extends AppCompatActivity {
@@ -28,9 +29,10 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn = findViewById(R.id.loginBtn);
         exitBtn = findViewById(R.id.exitBtn);
 
-        test = new User("Hayeon", "Kim", "12690273",
-                "sep2018", "46", "Raleigh Avenue",
+        test = new User("Hayeon", "Kim", "1",
+                "1", "46", "Raleigh Avenue",
                 "Caringbah", 2229);
+
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override

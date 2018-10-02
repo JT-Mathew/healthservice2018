@@ -4,5 +4,6 @@
 
     <string name="makeapp">Make an \nAppointment</string>
     <string name="manApp">Manage an \nAppointment</string>
+    <string name="pastApp">Past \nAppointment</string>
 
 </resources>

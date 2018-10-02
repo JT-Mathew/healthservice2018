@@ -1,6 +1,8 @@
 package c.hayeon.seprroject.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class User implements Serializable{
 
@@ -12,6 +14,8 @@ public class User implements Serializable{
     String streetName;
     String suburbName;
     int postcode;
+    List<Appointment> currentAppointments= new ArrayList<Appointment>();
+    List<Appointment> pastAppointments = new ArrayList<Appointment>();
 
     public User(String firstName, String lastName, String studentId, String password, String roadNumber, String streetName, String suburbName, int postcode) {
         this.firstName = firstName;
@@ -75,5 +79,13 @@ public class User implements Serializable{
 
     public void setPostcode(int postcode) {
         this.postcode = postcode;
+    }
+
+    public void makeAppointment(Appointment appointment){
+        currentAppointments.add(appointment);
+    }
+
+    public void saveAppointment(Appointment appointment){
+        pastAppointments.add(appointment);
     }
 }
