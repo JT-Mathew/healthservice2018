@@ -17,7 +17,7 @@ public class Appointment {
         this.docId = docId;
         appointmentId = UUID.randomUUID();
     }
-    
+
     public Date getAppointmentDateTime() {
         return appointmentDateTime;
     }

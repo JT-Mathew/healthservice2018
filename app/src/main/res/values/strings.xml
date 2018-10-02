@@ -4,6 +4,10 @@
 
     <string name="makeapp">Make an \nAppointment</string>
     <string name="manApp">Manage an \nAppointment</string>
+<<<<<<< HEAD
     <string name="pastApp">Past \nAppointment</string>
+=======
+    <string name="email">Email</string>
+>>>>>>> bf90b4b2d87f69c7ab5c9ad7636acf812fbfbfe6
 
 </resources>
