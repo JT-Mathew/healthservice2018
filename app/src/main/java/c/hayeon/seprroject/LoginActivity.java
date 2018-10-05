@@ -30,9 +30,9 @@ public class LoginActivity extends AppCompatActivity {
         exitBtn = findViewById(R.id.exitBtn);
 
         test = new User("Hayeon", "Kim", "1",
-                "1", "46", "Raleigh Avenue",
-                "Caringbah", 2229);
-//asdfasdfadsf
+                "1", "1", "abc road",
+                "ABC", 1111);
+
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
