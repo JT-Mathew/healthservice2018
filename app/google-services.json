@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "355650968533-q2i9rpk94g8t035rrmtm0idilq1stfd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "c.hayeon.seprroject",
+            "certificate_hash": "7d1713232175e08a09568cb42630c77802e59549"
+          }
+        },
+        {
           "client_id": "355650968533-khugqfjopdacrv0a2vqs27m4if4r4th3.apps.googleusercontent.com",
           "client_type": 3
         }

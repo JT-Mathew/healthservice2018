@@ -18,6 +18,9 @@ public class Appointment {
         appointmentId = UUID.randomUUID();
     }
 
+    public Appointment()
+    {}
+    
     public Date getAppointmentDateTime() {
         return appointmentDateTime;
     }

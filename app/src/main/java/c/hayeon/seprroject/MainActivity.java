@@ -12,12 +12,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import c.hayeon.seprroject.model.AddAppointment;
 import c.hayeon.seprroject.model.User;
 
 
 public class MainActivity extends AppCompatActivity {
     Button detailBtn;
     Button newAppBtn;
+    Button mngButton;
     TextView nameTv;
     Toolbar menubar;
     User user;
@@ -52,6 +54,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), BookingActivity.class);
                 intent.putExtra("user", user);
                 startActivityForResult(intent, 0);
+
+            }
+        });
+
+        mngButton = (Button) findViewById(R.id.mngAppBtn);
+        mngButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, AddAppointment.class));
             }
         });
 
@@ -60,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-
         inflater.inflate(R.menu.menu_main, menu);
         return true;
     }

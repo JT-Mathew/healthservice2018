@@ -19,4 +19,16 @@ public class Doctor {
     public void setDocName(String docName) {
         this.docName = docName;
     }
+
+    public Doctor()
+    {
+
+    }
+
+    public Doctor(String docId, String docName)
+    {
+        this.docId = docId;
+        this.docName = docName;
+    }
+
 }
