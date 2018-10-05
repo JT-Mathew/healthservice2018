@@ -37,6 +37,7 @@ public class BookingActivity extends AppCompatActivity {
     }
 <<<<<<< HEAD
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
