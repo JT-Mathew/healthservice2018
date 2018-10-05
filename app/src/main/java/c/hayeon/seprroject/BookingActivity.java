@@ -3,8 +3,6 @@ package c.hayeon.seprroject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 import android.widget.TextView;
 
@@ -37,6 +35,7 @@ public class BookingActivity extends AppCompatActivity {
             }
         });
     }
+<<<<<<< HEAD
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -45,4 +44,6 @@ public class BookingActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_main, menu);
         return true;
     }
+=======
+>>>>>>> parent of 9955e9b... a
 }
