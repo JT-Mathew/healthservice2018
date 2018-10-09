@@ -76,9 +76,11 @@ public class AddAppiontDetail extends AppCompatActivity {
     }
 
 
-    private void search(String id) {
+    private void search(String id)
+    {
         final String myID = id;
-        myRef.addValueEventListener(new ValueEventListener() {
+        myRef.addValueEventListener(new ValueEventListener()
+        {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Doctor myDoctor = dataSnapshot.child("Doctor").child(myID).getValue(Doctor.class);
